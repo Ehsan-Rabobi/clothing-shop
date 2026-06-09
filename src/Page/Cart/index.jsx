@@ -4,7 +4,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { useCart } from "../../Context/CartContext";
+import { useCart } from "../../context/CartContext";
 
 export default function Cart() {
   const navigate = useNavigate();
